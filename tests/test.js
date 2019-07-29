@@ -13,10 +13,9 @@ fixture`Book Collection`
     await waitForAngular();
   });
 
-test
-  ('Login', async t => {
-    await t
-      .typeText(loginPage.username, t.fixtureCtx.username)
-      .typeText(loginPage.password, t.fixtureCtx.password)
-      .click(loginPage.loginBtn);
-  });
+test('Login', async t => {
+  await t
+    .typeText(loginPage.username, t.fixtureCtx.username)
+    .typeText(loginPage.password, t.fixtureCtx.password)
+    .click(loginPage.loginBtn);
+});

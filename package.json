@@ -7,11 +7,14 @@
     "testAll": "testcafe -c 1 chrome,firefox tests -r json:results.json",
     "test": "testcafe chrome tests",
     "remote": "testcafe remote tests --skip-js-errors",
-    "debug": "testcafe --inspect-brk chrome ./tests"
+    "debug": "testcafe --inspect-brk chrome ./tests",
+    "lint": "eslint ."
   },
   "author": "Colin",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-testcafe": "^0.2.1",
     "testcafe": "^1.3.3",
     "testcafe-angular-selectors": "^0.3.2"
   }
