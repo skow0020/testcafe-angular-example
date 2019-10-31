@@ -1,7 +1,7 @@
 import { AngularSelector } from 'testcafe-angular-selectors';
 
 export class LoginPage {
-  constructor () {
+  constructor() {
     const loginForm = AngularSelector('bc-login-form');
 
     this.username = loginForm.find('#md-input-1');

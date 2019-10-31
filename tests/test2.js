@@ -29,5 +29,5 @@ test('zero books', async t => {
 
   await t
     .typeText(findBookPage.searchInput, 'The Hunger Games')
-    .expect(findBookPage.bookPreviews.count).eql(0);
+    .expect(findBookPage.bookPreviews.count).eql(10);
 });
