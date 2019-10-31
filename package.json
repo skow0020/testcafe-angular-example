@@ -13,9 +13,9 @@
   "author": "Colin",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^6.1.0",
+    "eslint": "^6.6.0",
     "eslint-plugin-testcafe": "^0.2.1",
-    "testcafe": "^1.3.3",
+    "testcafe": "^1.6.0",
     "testcafe-angular-selectors": "^0.3.2"
   }
 }
